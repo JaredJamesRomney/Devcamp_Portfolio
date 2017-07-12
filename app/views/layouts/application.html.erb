@@ -22,6 +22,8 @@
 
           <%= yield %>
 
+          <%= video_tag "mountain.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "video" %>
+
           <%= render "shared/application_footer"%>
 
           <%= source_helper("application") %>
