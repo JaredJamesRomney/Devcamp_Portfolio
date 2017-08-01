@@ -3,7 +3,7 @@ module SetSource
 
 
 	included do
-		before_filter :set_source
+		before_action :set_source
 	end
 
 	def set_source
