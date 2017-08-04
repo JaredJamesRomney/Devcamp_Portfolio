@@ -15,7 +15,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="pimp">
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
@@ -24,9 +24,9 @@
 
           <%= yield %>
 
-          <%= video_tag "mountain.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "video" %>
+          <div class="background"></div>
 
-          <div class="background-img"></div>
+          <%= video_tag "mountain.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "video", poster: 'background' %>
 
           <%= render "shared/application_footer"%>
 
