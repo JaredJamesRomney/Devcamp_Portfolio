@@ -8,11 +8,12 @@ ready = ->
       "I can't change the direction of the wind, but I can adjust my sails to always reach my destination -Jimmy Dean"
       "Put your heart, mind, and soul into even your smallest acts. This is the secret of success -Swami Sivananda"
     ]
-    typeSpeed: 0
-    backDelay: 1000
-    startDelay: 1000
-		loop: false
-		shuffle: false
+    typeSpeed: 0,
+    cursorChar: '&#9889;',
+    backDelay: 1000,
+    startDelay: 1000,
+    loop: true,
+		shuffle: true
   return
 
 $(document).ready ready

@@ -249,17 +249,13 @@ color: black;
   background-repeat: no-repeat;
   background-position: center;
 }
-.navbar-styles:focus {
-  outline: none;
-}
+// .navbar-styles:focus {
+//   outline: none;
+// }
 
 .navbar-styles:hover {
   outline: 2px solid black;
 }
-
-
-
-
 
 @media (max-width: 40em) {
   .background {
@@ -281,10 +277,6 @@ color: black;
   .nav-masthead {
     width: 100%;
   }
-}
-
-.typed-cursor {
-  
 }
 
 
